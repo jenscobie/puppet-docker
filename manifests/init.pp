@@ -1,4 +1,4 @@
 # This is a placeholder class.
-class template {
+class docker {
   anchor { 'Hello_World': }
 }
