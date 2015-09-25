@@ -10,7 +10,7 @@ include docker
 
 ## Parameters
 
-You can customise this module by configuring some optional class parameters. Usually you'd do this via Hiera, but you could also explicitly pass those parameters in puppet code like `class { 'docker': version => '1.8.2', }`.
+You can customise this module by configuring some optional class parameters. Usually you'd do this via Hiera, but you could also explicitly pass those parameters in puppet code like `class { 'docker': version => '1.8.2b', }`.
 
 * `version`: The version of Docker to install
 
@@ -19,7 +19,7 @@ All of these parameters have sensible defaults, and are provided if you need mor
 Example hiera data in YAML:
 
 ```yaml
-docker::version: '1.8.2'
+docker::version: '1.8.2b'
 ```
 
 ## Required Puppet Modules
