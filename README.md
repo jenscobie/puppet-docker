@@ -25,6 +25,7 @@ docker::version: '1.8.2b'
 ## Required Puppet Modules
 
 * `boxen`
+* `stdlib`
 
 ## Development
 
