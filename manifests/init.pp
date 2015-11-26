@@ -5,7 +5,7 @@
 #   include docker
 class docker (
   $ensure   = 'present',
-  $version = '1.8.2b'
+  $version = '1.9.1a'
 ) {
 
   include boxen::config
